@@ -491,6 +491,9 @@
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
+  .w-\[2px\] {
+    width: 2px;
+  }
   .w-\[32\%\] {
     width: 32%;
   }
@@ -508,6 +511,12 @@
   }
   .w-\[274px\] {
     width: 274px;
+  }
+  .w-\[280px\] {
+    width: 280px;
+  }
+  .w-\[295px\] {
+    width: 295px;
   }
   .w-\[300px\] {
     width: 300px;
@@ -924,6 +933,12 @@
   }
   .gap-x-1\.5 {
     column-gap: calc(var(--spacing) * 1.5);
+  }
+  .gap-x-2 {
+    column-gap: calc(var(--spacing) * 2);
+  }
+  .gap-x-3 {
+    column-gap: calc(var(--spacing) * 3);
   }
   .space-x-reverse {
     :where(& > :not(:last-child)) {
@@ -1621,6 +1636,9 @@
   }
   .text-\[\#FFFEFE\] {
     color: #FFFEFE;
+  }
+  .text-\[\#\] {
+    color: #;
   }
   .text-menu_c {
     color: var(--color-menu_c);
